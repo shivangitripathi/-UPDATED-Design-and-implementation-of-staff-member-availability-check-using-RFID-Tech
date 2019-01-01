@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Room No: 210</title>
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>ROOM NO:210</h2>
+
+<table>
+  <tr>
+    <th>ROOM NO</th>
+    <th>NAME</th>
+    <th>STATUS</th>
+  </tr>
+
+  <tr>
+    <td>210</td>
+    <td>Vinay Kumar Dwivedi</td>
+    <td id="Big1"></td>
+  </tr>
+  
+    <tr>
+    <td>210</td>
+    <td>Ashutosh Shankhdhar</td>
+    <td id="Big2"></td>
+  </tr>
+  
+  <tr>
+    <td>210</td>
+    <td>Hardeep Singh</td>
+    <td id="Big3"></td>
+  </tr>
+  
+    <tr>
+    <td>210</td>
+    <td>Vinay Agrawal</td>
+    <td id="Big4"></td>
+  </tr>
+  
+</table>
+<script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
+<script>
+/* The below initialize firebase code could be found in >>Settings>Project settings>General>Add Firebase to your web app  */
+  // Initialize Firebase
+  var config = {
+    apiKey: "*************************",	//(Edit)
+    authDomain: "**************************",	//(Edit)
+    databaseURL: "https://************.firebaseio.com",	//(Edit) Firebase project name
+    projectId: "***********",	//(Edit)
+    storageBucket: "",	//(Edit)
+    messagingSenderId: "************"	//(Edit)
+  };
+  firebase.initializeApp(config);
+  
+  var Big1=document.getElementById('Big1');
+  var dbRef=firebase.database().ref().child('A210/A1/Status');	//(Edit)
+  dbRef.on('value',snap=>Big1.innerText=snap.val());
+  
+   var Big2=document.getElementById('Big2');
+  var dbRef=firebase.database().ref().child('A210/A2/Status');	//(Edit)
+  dbRef.on('value',snap=>Big2.innerText=snap.val());
+  
+  var Big3=document.getElementById('Big3');
+  var dbRef=firebase.database().ref().child('A210/A3/Status');	//(Edit)
+  dbRef.on('value',snap=>Big3.innerText=snap.val());
+  
+  var Big4=document.getElementById('Big4');
+  var dbRef=firebase.database().ref().child('A210/A4/Status');	//(Edit)
+  dbRef.on('value',snap=>Big4.innerText=snap.val());
+  
+ 
+</script>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Room No: 104</title>
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>ROOM NO:104</h2>
+
+<table>
+  <tr>
+    <th>ROOM NO</th>
+    <th>NAME</th>
+    <th>STATUS</th>
+  </tr>
+
+  <tr>
+    <td>104</td>
+    <td>Suresh Pratap Singh</td>
+    <td id="Big"></td>
+ 
+  
+</table>
+<script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
+<script>
+/* The below initialize firebase code could be found in >>Settings>Project settings>General>Add Firebase to your web app  */
+  // Initialize Firebase
+  var config = {
+    apiKey: "*************************",	//(Edit)
+    authDomain: "**************************",	//(Edit)
+    databaseURL: "https://************.firebaseio.com",	//(Edit) Firebase project name
+    projectId: "***********",	//(Edit)
+    storageBucket: "",	//(Edit)
+    messagingSenderId: "************"	//(Edit)
+  };
+  firebase.initializeApp(config);
+  
+  var Big=document.getElementById('Big');
+  var dbRef=firebase.database().ref().child('A104/A1/Status');	//(Edit)
+  dbRef.on('value',snap=>Big.innerText=snap.val());
+</script>
+</body>
+</html>
