@@ -1,5 +1,5 @@
 # Contributers
-Shivangi Tripathi\n
-Samiksha Gupta\n
-Ayaz Khan\n
-Zaved Alam\n
+Shivangi Tripathi<br/>
+Samiksha Gupta<br/>
+Ayaz Khan<br/>
+Zaved Alam
