@@ -1,3 +1,4 @@
+![University Logo](https://github.com/zaved810/Design-and-implementation-of-staff-member-availability-check-using-RFID-Technology-_Mini-project-1-/blob/master/images/uni_logo.png)
 # GLA University Mathura, 2018
 ## Mini Project Synopsis
 ## Design and Implementation of Staff Member Availability Check using RFID Technology
@@ -49,19 +50,19 @@ ___
 
 
 
- #### ➢	Hardware : 
- ●	Node MCU
- ●	RFID Tags
- ●	RFID reader
- ●	PCB
- ●	Cables
- ●	Power supply
- ●	Soldering iron
+* Hardware : 
+  * Node MCU
+  * RFID Tags
+  * RFID reader
+  * PCB
+  * Cables
+  * Power supply
+  * Soldering iron
 
- #### ➢	Software :
- ●	MySQL 5.7
- ●	Python 3.x
- ●	Arduino 1.x(IDE)
+* Software :
+  * MySQL 5.7
+  * Python 3.x
+  * Arduino 1.x(IDE)
  
  
  
