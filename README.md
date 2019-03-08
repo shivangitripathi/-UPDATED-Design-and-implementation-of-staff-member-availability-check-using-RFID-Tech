@@ -44,7 +44,7 @@ ___
  
  
  
- ___
+___
  
 ### Broad Requirements:
 
@@ -66,4 +66,26 @@ ___
  
  
  
- ___
+___
+ 
+___
+ 
+# Mockups
+
+
+
+ ![Homepage](https://github.com/zaved810/Design-and-implementation-of-staff-member-availability-check-using-RFID-Technology-_Mini-project-1-/blob/master/images/Homepage.png)
+
+ ![Ground Floor](https://github.com/zaved810/Design-and-implementation-of-staff-member-availability-check-using-RFID-Technology-_Mini-project-1-/blob/master/images/Ground%20Floor.png)
+
+ ![First Floor](https://github.com/zaved810/Design-and-implementation-of-staff-member-availability-check-using-RFID-Technology-_Mini-project-1-/blob/master/images/First%20Floor.png)
+ 
+ ![Second Floor](https://github.com/zaved810/Design-and-implementation-of-staff-member-availability-check-using-RFID-Technology-_Mini-project-1-/blob/master/images/Second%20Floor.png)
+ 
+ ![Third Floor](https://github.com/zaved810/Design-and-implementation-of-staff-member-availability-check-using-RFID-Technology-_Mini-project-1-/blob/master/images/Third%20Floor.png)
+ 
+ ![Result](https://github.com/zaved810/Design-and-implementation-of-staff-member-availability-check-using-RFID-Technology-_Mini-project-1-/blob/master/images/Result.png)
+
+
+
+___
