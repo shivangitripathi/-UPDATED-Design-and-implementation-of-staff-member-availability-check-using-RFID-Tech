@@ -6,7 +6,7 @@
 1. Shivangi Tripathi (161500278)
 2. Samiksha Gupta (161500478)
 3. [Zaved Alam (161500646)](http://github.com/zaved810)
-4. Ayaz Khan (161500154)
+4. [Ayaz Khan (161500154)](http://github.com/Ayaz5426)
 
 ## Supervised By-
 Ms. Debjani Ghosh  
