@@ -9,9 +9,9 @@
 4. [Ayaz Khan (161500154)](http://github.com/Ayaz5426)
 
 ## Supervised By-
-Ms. Debjani Ghosh  
-Assistant professor  
-Department of Computer Engineering & Applications  
+_Ms. Debjani Ghosh_  
+**Assistant professor**  
+**Department of Computer Engineering & Applications**  
 
 ___
 
