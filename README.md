@@ -3,7 +3,7 @@
 ## Mini Project Synopsis
 ## Design and Implementation of Staff Member Availability Check using RFID Technology
 ## Team Members
-1. Shivangi Tripathi (161500278)
+1. [Shivangi Tripathi (161500278)](http://github.com/shivangitripathi)
 2. Samiksha Gupta (161500478)
 3. [Zaved Alam (161500646)](http://github.com/zaved810)
 4. [Ayaz Khan (161500154)](http://github.com/Ayaz5426)
